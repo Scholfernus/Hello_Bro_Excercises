@@ -39,5 +39,19 @@ public class Bro_Code_Excercices {
         for (int i = 0; i < food.size(); i++) {
             System.out.println(food.get(i));
         }
+        //Foreach = 2 sposoby przez pętlę lub wyciąganie z ArrayList
+        String [] animals = {"cat", "dog", "rat", "bird"};
+        for (String i : animals){
+            System.out.print(i + ", ");
+        }
+        System.out.println();
+        ArrayList<String> animals2 = new ArrayList<>();
+        animals2.add("shark");
+        animals2.add("elephant");
+        animals2.add("mouse");
+        animals2.add("giraph");
+        for (String i2 : animals2){
+            System.out.print(i2 + ", ");
+        }
     }
 }
