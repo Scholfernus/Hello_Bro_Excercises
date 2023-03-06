@@ -76,5 +76,25 @@ public class Sort2Array {
             }
             System.out.println();
         }
+        int[][] tab5 = {{7, 8, 2, 1},
+                {0, 3, 2, 9},
+                {6, 5, 3, 2},
+                {8, 3, 7, 9}
+        };
+        sortArrays(tab5);
+    }
+
+    static int sortArrays(int array2[][]) {
+        //sortowanie poszczególnych wierszy
+        for (int i = 0; i < array2.length; i++) {
+                Arrays.sort(array2[i]);
+        }
+        for (int i = 0; i < array2.length; i++) {
+            for (int j = 0; j < array2[i].length; j++) {
+                System.out.print(array2[i][j] + ", ");
+            }
+            System.out.println();
+        }
+        return 0;
     }
 }
