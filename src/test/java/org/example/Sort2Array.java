@@ -27,11 +27,13 @@ public class Sort2Array {
             }
             System.out.println();
         }
+        System.out.println("Pojedyncza tablica przed sortowaniem: " + Arrays.toString(tab2));
         Arrays.sort(tab2);
-        for (int i = 0; i < tab2.length; i++) {
-
-            System.out.print(tab2[i] + ", ");
-        }
+//        for (int i = 0; i < tab2.length; i++) {
+//
+//            System.out.print(tab2[i] + ", ");
+//        }
+        System.out.println("Pojedyncza tablica po sortowaniu: " + Arrays.toString(tab2));
     }
 
     public static void sort2ArrayBasedOnColumn(int[][] array, final int columnNumber) {
@@ -76,6 +78,11 @@ public class Sort2Array {
             }
             System.out.println();
         }
+        int[] tab6 = { 33, 22, 11, 21, 55, 32, 3, 4 };
+        System.out.println("Array before sorting : " + Arrays.toString(tab6));
+        Arrays.sort(tab6); System.out.println("Array after sorting in ascending order : " + Arrays.toString(tab6));
+
+
         int[][] tab5 = {{7, 8, 2, 1},
                 {0, 3, 2, 9},
                 {6, 5, 3, 2},
@@ -87,7 +94,7 @@ public class Sort2Array {
     static int sortArrays(int array2[][]) {
         //sortowanie poszczególnych wierszy
         for (int i = 0; i < array2.length; i++) {
-                Arrays.sort(array2[i]);
+            Arrays.sort(array2[i]);
         }
         for (int i = 0; i < array2.length; i++) {
             for (int j = 0; j < array2[i].length; j++) {
