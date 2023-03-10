@@ -88,8 +88,8 @@ public class Sort2Array {
                 {6, 5, 3, 2},
                 {8, 3, 7, 9}
         };
-        sortArrays(tab5);
-    }
+        sortArrays(tab5);    }
+
 
     static int sortArrays(int array2[][]) {
         //sortowanie poszczególnych wierszy
@@ -103,5 +103,7 @@ public class Sort2Array {
             System.out.println();
         }
         return 0;
+
     }
+
 }
