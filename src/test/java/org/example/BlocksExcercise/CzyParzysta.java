@@ -8,9 +8,9 @@ public class CzyParzysta {
         System.out.println("Podaj dowolną liczbę");
         int a = scanner.nextInt();
         if (a%2 == 0){
-            System.out.printf("liczba %d jest parzysta", a);
+            System.out.printf("liczba %d jest parzysta.", a);
         }else {
-            System.out.printf("liczba %d jest nieparzysta", a);
+            System.out.printf("liczba %d jest nieparzysta.", a);
         }
     }
 }
